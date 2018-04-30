@@ -1,0 +1,23 @@
+{
+  "name": "poker-leaderboard-api",
+  "version": "1.0.0",
+  "description": "Poker leaderboard NodeJs API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --debug ./server.js",
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "keywords": [
+    "RESTful"
+  ],
+  "author": "marco.peinado",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mysql": "^2.15.0",
+    "swagger-jsdoc": "^1.9.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  }
+}
