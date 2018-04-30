@@ -16,6 +16,8 @@ Node.js API
 
 ### Setup Poker Leaderboard API 
 Run 'npm install' inside /pokerLeaderBoardAPI
+For the app to be able to talk to the database, 
+you need to update the db.js file with credentials to the database.
 
 ### Run Poker Leaderboard API
 Run 'npm run start' inside /pokerLeaderBoardAPI
