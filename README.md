@@ -1,5 +1,16 @@
 # pokerLeaderboard
 
+## MySql Back end
+The directory /mysql has the following files:
+- create_schema_pokerLeaderboard.sql - creates the schema used on the app
+- create_table_player.sql -             create player table
+- create_table_winnings.sql -           create winnings
+- create_proc_createPlayer.sql -        stored procedure to create a player     
+- create_proc_deletePlayer.sql -        stored procedure to delete a player       
+- create_proc_editPlayer.sql -          stored procedure to edit a player         
+- create_proc_getPlayerRankings.sql -   stored procedure to get the leaderboard 
+
+
 ## pokerLeaderBoardAPI
 Node.js API 
 
